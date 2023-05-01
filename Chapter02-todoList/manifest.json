@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 02 - TODO List(MV3)",
+  "version": "1.0.0",
+  "description": "How to use LocalStorage?",
+  "permissions": ["storage", "tabs", "unlimitedStorage"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
+  "icons": {
+    "48": "asserts/icons/48.png",
+    "64": "asserts/icons/64.png",
+    "128": "asserts/icons/128.png"
+  },
+  "action": {
+    "default_title": "Todo List",
+    "default_icon": "asserts/icons/64.png",
+    "default_popup": "asserts/popup/index.html"
+  }
+}

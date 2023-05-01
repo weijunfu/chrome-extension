@@ -1,0 +1,37 @@
+{
+  "id": "4045145",
+  "name": "TodoList",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "77021",
+      "name": "已关注",
+      "font_class": "yiguanzhu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "78336",
+      "name": "方向3",
+      "font_class": "fangxiang3",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "78337",
+      "name": "方向4",
+      "font_class": "fangxiang4",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "125896",
+      "name": "错误",
+      "font_class": "cuowu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
