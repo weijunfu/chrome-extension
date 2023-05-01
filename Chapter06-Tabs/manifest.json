@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 06 - Tabs(MV3)",
+  "version": "1.0.0",
+  "description": "Control chrome tabs",
+  "icons": {
+    "48": "asserts/icons/48.png",
+    "64": "asserts/icons/64.png",
+    "128": "asserts/icons/128.png"
+  },
+  "action": {
+    "default_title": "Close other tabs",
+    "default_icon": "asserts/icons/64.png",
+    "default_popup": "asserts/popup/index.html"
+  }
+}
