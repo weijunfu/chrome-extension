@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 03 - Background(MV3)",
+  "version": "1.0.0",
+  "description": "How to use service worker?",
+  "permissions": ["tabs"],
+  "icons": {
+    "48": "asserts/icons/48.png",
+    "64": "asserts/icons/64.png",
+    "128": "asserts/icons/128.png"
+  },
+  "action": {
+    "default_title": "Service Worker",
+    "default_icon": "asserts/icons/64.png",
+    "default_popup": "asserts/popup/index.html"
+  },
+  "background": {
+    "service_worker": "asserts/background/index.js"
+  }
+}
