@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-family: Consolas;
+    color: #333333;
+    background-color: #f2f2f2;
+    font-size: 12px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    min-height: 240px;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    color: purple;
+    font-size: 24px;
+}

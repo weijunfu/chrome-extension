@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 11 - Downloader(MV3)",
+  "version": "1.0.0",
+  "description": "This extension downloads files on the web in bulk",
+  "icons": {
+    "48": "asserts/icons/48.png",
+    "64": "asserts/icons/64.png",
+    "128": "asserts/icons/128.png"
+  },
+  "action": {
+    "default_title": "Download Images",
+    "default_icon": "asserts/icons/64.png",
+    "default_popup": "asserts/popup/index.html"
+  },
+  "permissions": ["downloads"]
+}
