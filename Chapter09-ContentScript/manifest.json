@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 09 - Content Scripts (MV3)",
+  "version": "1.0.0",
+  "description": "How to use contentScripts?",
+  "icons": {
+    "48": "asserts/icons/48.png",
+    "64": "asserts/icons/64.png",
+    "128": "asserts/icons/128.png"
+  },
+  "action": {
+    "default_title": "Content Scripts",
+    "default_icon": "asserts/icons/64.png",
+    "default_popup": "asserts/popup/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": [ "asserts/contentScripts/youtube.js" ]
+    }
+  ]
+}
