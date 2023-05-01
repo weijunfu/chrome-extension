@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 07 - Send Message(MV3)",
+  "version": "1.0.0",
+  "description": "How to use sendMessage?",
+  "icons": {
+    "48": "asserts/icons/48.png",
+    "64": "asserts/icons/64.png",
+    "128": "asserts/icons/128.png"
+  },
+  "action": {
+    "default_title": "Basic Example",
+    "default_icon": "asserts/icons/64.png",
+    "default_popup": "asserts/popup/index.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "https://*.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "asserts/background.js"
+  }
+}
