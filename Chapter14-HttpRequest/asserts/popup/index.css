@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-family: Consolas;
+    color: #333333;
+    background-color: #f2f2f2;
+    font-size: 12px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    min-height: 240px;
+}
+
+.wrap {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333333;
+    padding: 20px;
+}
+
+.w-url,
+.w-resp {
+    display: flex;
+}
+
+.w-resp {
+    margin-top: 20px;
+    height: 240px;
+}
+
+.w-url label,
+.w-resp label {
+    flex: 2;
+    text-align: right;
+}
+
+.w-url input,
+.w-resp textarea {
+    flex: 8;
+}
+
+.w-url input,
+.w-url label{
+    padding: 5px 10px;
+}
