@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 21 - Display text on badge(MV3)",
+  "version": "1.0.0",
+  "description": "This is a sample that displays the text on the badge",
+  "permissions": ["alarms"],
+  "icons": {
+    "48": "asserts/icons/48.png",
+    "64": "asserts/icons/64.png",
+    "128": "asserts/icons/128.png"
+  },
+  "action": {
+    "default_title": "Display text on badge",
+    "default_icon": "asserts/icons/64.png"
+  },
+  "background": {
+    "service_worker": "asserts/event.js"
+  }
+}
