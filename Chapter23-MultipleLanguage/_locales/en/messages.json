@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Hello World",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "this is a i18n example",
+    "description": "Extension Description"
+  },
+  "popupTitle": {
+    "message": "Basic Example",
+    "description": "popup title"
+  }
+}

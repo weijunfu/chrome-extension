@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "第23章节 多语言配置(MV3)",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "这是一个多语言示例，支持英语和中文。",
+    "description": "Extension Description"
+  },
+  "popupTitle": {
+    "message": "基础示例",
+    "description": "popup title"
+  }
+}
