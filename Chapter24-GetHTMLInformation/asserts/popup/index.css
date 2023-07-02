@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-family: Consolas;
+    color: #333333;
+    background-color: #f2f2f2;
+    font-size: 12px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    min-height: 240px;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#get {
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 40px;
+    background-color: aliceblue;
+}
+
+#get:hover {
+    cursor: pointer;
+    color: purple;
+    scale: 1.2;
+    background-color: yellow;
+}
+
+#content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 400px;
+}

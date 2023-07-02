@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 24 - Get HTML Information(MV3)",
+  "version": "1.0.0",
+  "description": "This is a sample of getting html information.",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "asserts/background.js"
+  },
+  "icons": {
+    "48": "asserts/icons/48.png",
+    "64": "asserts/icons/64.png",
+    "128": "asserts/icons/128.png"
+  },
+  "action": {
+    "default_title": "Get HTML Information",
+    "default_icon": "asserts/icons/64.png",
+    "default_popup": "asserts/popup/index.html"
+  }
+}
