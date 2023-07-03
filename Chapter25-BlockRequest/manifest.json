@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Chapter 25 - Block Request(MV3)",
+  "version": "1.0.0",
+  "description": "This is a sample extension that blocks requests",
+  "icons": {
+    "48": "asserts/icons/48.png",
+    "64": "asserts/icons/64.png",
+    "128": "asserts/icons/128.png"
+  },
+  "action": {
+    "default_title": "Basic Example",
+    "default_icon": "asserts/icons/64.png",
+    "default_popup": "asserts/popup/index.html"
+  },
+  "permissions": [
+    "scripting",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": [
+    "http://**/*",
+    "https://**/*"
+  ],
+  "background": {
+    "service_worker": "asserts/background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "block_rule",
+      "enabled": true,
+      "path": "asserts/block_rule.json"
+    }]
+  }
+}
