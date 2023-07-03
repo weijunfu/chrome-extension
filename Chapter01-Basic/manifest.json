@@ -2,15 +2,18 @@
   "manifest_version": 3,
   "name": "Chapter 01 - Basic(MV3)",
   "version": "1.0.0",
-  "description": "How to build a basic chrome extension?",
+  "description": "This is a sample app launcher",
   "icons": {
     "48": "asserts/icons/48.png",
     "64": "asserts/icons/64.png",
     "128": "asserts/icons/128.png"
   },
   "action": {
-    "default_title": "Basic Example",
+    "default_title": "App Launcher",
     "default_icon": "asserts/icons/64.png",
     "default_popup": "asserts/popup/index.html"
-  }
+  },
+  "permissions": [
+    "management"
+  ]
 }
