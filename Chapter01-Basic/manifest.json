@@ -2,15 +2,27 @@
   "manifest_version": 3,
   "name": "Chapter 01 - Basic(MV3)",
   "version": "1.0.0",
-  "description": "How to build a basic chrome extension?",
+  "description": "This extension sets the background color on the options page.",
   "icons": {
     "48": "asserts/icons/48.png",
     "64": "asserts/icons/64.png",
     "128": "asserts/icons/128.png"
   },
   "action": {
-    "default_title": "Basic Example",
+    "default_title": "Options Page",
     "default_icon": "asserts/icons/64.png",
     "default_popup": "asserts/popup/index.html"
+  },
+  "permissions": [
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "options_ui": {
+    "page": "asserts/options/index.html",
+    "open_in_tab": true
   }
 }
