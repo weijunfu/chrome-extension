@@ -12,5 +12,11 @@
     "default_title": "Basic Example",
     "default_icon": "asserts/icons/64.png",
     "default_popup": "asserts/popup/index.html"
+  },
+  "permissions": [
+    "notifications", "alarms"
+  ],
+  "background": {
+    "service_worker": "asserts/background.js"
   }
 }
